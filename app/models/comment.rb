@@ -1,5 +1,5 @@
 class Comment < ActiveRecord::Base
 	belongs_to :post
-	validates_presence_of :title
-	validates_presence_of :body
+	validate_presence_of :title
+	validate_presence_of :body
 end
