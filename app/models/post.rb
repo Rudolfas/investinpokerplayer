@@ -1,5 +1,5 @@
 class Post < ActiveRecord::Base
 	has_many :comments, dependent: :destroy
-	validates_presence_of :title
-	validates_presence_of :body
+	validate_presence_of :title
+	validate_presence_of :body
 end
