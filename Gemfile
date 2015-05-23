@@ -16,7 +16,7 @@ gem 'coffee-rails', '~> 4.0.0'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
-gem 'simple_form', '~> 3.1.0'
+#gem 'simple_form', '~> 3.1.0'
 gem 'rails-footnotes', '~> 4.1.6'
 gem 'bootstrap-sass', '~> 3.3.4.1'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
@@ -25,9 +25,9 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0',          group: :doc
-gem 'simple_form', '~> 3.1.0'
-gem 'actionpack', '~> 4.2.1'
-gem 'activemodel', '~> 4.2.1'
+gem 'simple_form'
+gem 'actionpack'
+gem 'activemodel'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
